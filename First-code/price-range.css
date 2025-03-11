@@ -31,5 +31,43 @@ body{
 
 }
 .wrapper{
-    
+     margin: 0;
+    width: 70%;
+    padding: 0px 25px 40px;
+    position: relative;
+    left: 63px;
+}
+.header h2 {
+    font-size: 30px;
+    color: #01940b;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Styles for the price input container */
+.price-input-container {
+    width: 100%;
+}
+
+.price-input .price-field {
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.price-field span {
+    margin-right: 10px;
+    margin-top: 6px;
+    font-size: 17px;
+}
+
+.price-field input {
+    flex: 1;
+    height: 35px;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    border-radius: 9px;
+    text-align: center;
+    border: 0px;
+    background: #e4e4e4;
 }
