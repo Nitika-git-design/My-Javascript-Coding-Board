@@ -1,1 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ffffff;
+    flex-direction: column;
+}
+.main{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    padding: 20px;
+    transition: transform 0.2s;
+    width: 600px;
+}
+.main.hover{
+    transform: scale(1.05);
+}
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #01940b;
 
+}
+.wrapper{
+    
+}
